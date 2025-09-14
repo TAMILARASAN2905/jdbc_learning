@@ -43,7 +43,7 @@ public class Main {
             while (resultSet.next()) {
                 System.out.println(resultSet.getInt("id") + " " + resultSet.getString(2));
             }
-            /*Close the Connection*/
+          /*Close the Connection*/
             connection.close();
 
         } catch (Exception e) {
